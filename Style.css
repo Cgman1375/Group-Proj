@@ -43,3 +43,28 @@ body{
 	background-position: absolute;
 }
 
+a{
+  display: inline-block;
+  background-color: lightblue;
+  border: .5px solid black;
+  border-width: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+a:hover{
+       color: black;
+       border-radius: 10px;
+       border-style: solid;
+       transition-property: color;
+       transition-duration: .2s;
+      }
+
+a:hover{
+       color: blue;
+       border-color: blue;
+      }
+
